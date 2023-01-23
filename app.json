@@ -1,0 +1,133 @@
+{
+      "name": "Lover Bot",
+      "logo": "https://telegra.ph/file/a62273c43c95ad07ada61.jpg",
+      "description": "A Telegram Powerful Group Managment Bot written in Python using Pyrogram and Telethon",
+      "keywords": [
+         "telegram",
+         "group",
+         "manager",
+         "razer",
+         "razerbot"
+      ],   
+   "repository": "https://github.com/Lover-Music/Lover-Managment-Bot",
+   "addons": [
+      {
+         "options": {
+            "version": "13"
+         },
+         "plan": "heroku-postgresql"
+      }
+   ],
+   "buildpacks": [
+    {
+      "url": "https://github.com/heroku/heroku-buildpack-python"
+    },
+    {
+      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+    }
+  ],  
+   "env": {
+      "TOKEN": {
+         "description": "Your bot token. Get one from @BotFather",
+         "value": "",
+         "required": true
+      },
+      "API_ID": {
+         "description": "Get API_ID from my.telegram.org, used for telethon based modules.",
+         "value": "",
+         "required": true
+      },
+      "API_HASH": {
+         "description": "Get API_HASH from my.telegram.org, used for telethon based modules.",
+         "value": "",
+         "required": true
+      },    
+      "SQLALCHEMY_DATABASE_URI": {
+         "description": "Your postgresql db url. If you don't have it, leave it empty.",
+         "value": "",
+         "required": false
+      },      
+      "OWNER_ID": {
+         "description": "Your user ID as an integer.",
+         "value": "",
+         "required": true
+      },
+      "BOT_ID": {
+         "description": "Your bot's User ID. Use any other bot to get it.",
+         "value": "",
+         "required": true
+      },
+      "HEROKU_API_KEY": {
+        "description": "Your Heroku API key, get it from 'https://dashboard.heroku.com/account'",
+        "value": "",
+        "required": false
+      },
+      "HEROKU_APP_NAME": {
+        "description": "Enter the Heroku app name here (Must an exact same name with your input above).",
+        "value": "",
+        "required": false
+      },
+      "OWNER_USERNAME": {
+         "description": "Your username without the @",
+         "value": "",
+         "required": true
+      },
+      "BOT_USERNAME": {
+         "description": "Your bot's username without the @",
+         "value": "",
+         "required": true
+      },
+      "BOT_NAME": {
+         "description": "Your Bot Name",
+         "value": "Lover"
+      },
+      "UPDATE_CHANNEL": {
+         "description": "Your Telegram Bot Update Channel username Without @ like: Lover_about.",
+         "value": "Lover_about",
+         "required": false
+      },
+      "SUPPORT_CHAT": {
+         "description": "Your Telegram support group chat username Without @ like: the_chatting.",
+         "value": "the_chatting",
+         "required": false
+      },
+      "START_IMG": {
+         "description": "Enter Your Bot Image Telegraph Link",
+         "value": "https://telegra.ph/file/ac7dabc39052dfc0107b1.jpg",
+         "required": true
+      },
+      "MONGO_DB_URI": {
+         "description": "Required for database connections.",
+         "value": "",
+         "required": true
+      },
+      "EVENT_LOGS": {
+         "description": "Event logs channel to note down important bot level events, recommend to make this public. Starts with: '-100'",
+         "value": "",
+         "required": true
+      },
+      "JOIN_LOGGER": {
+         "description": "A channel where bot will print who added it to what group, useful during debugging or spam handling. Starts with: '-100'",
+         "value": "",
+         "required": true
+      },      
+      "DEV_USERS": {
+         "description": "ID of users who are Devs of your bot (can use /sh /eval etc.).",
+         "value": "",
+         "required": false
+      },
+      "STRICT_GBAN": {
+         "description": "Enforce gbans across new groups as well as old groups. When a gbanned user talks, he will be banned.",
+         "value": "True"
+      },
+      "ENV": {
+         "description": "Setting this to ANYTHING will enable environment variables. Leave it as it is",
+         "value": "ANYTHING"
+      },
+      "URL": {
+         "description": "The Heroku App URL :-  https://<appname>.herokuapp.com/",
+         "value": "https://<appname>.herokuapp.com/",
+         "required": false
+      }   
+   }
+}
