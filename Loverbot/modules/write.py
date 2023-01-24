@@ -1,6 +1,6 @@
 from pyrogram import filters, enums
 
-from Razerbot import pbot, BOT_NAME, BOT_USERNAME
+from Loverbot import pbot, BOT_NAME, BOT_USERNAME
 
 
 @pbot.on_message(filters.command("write"))
