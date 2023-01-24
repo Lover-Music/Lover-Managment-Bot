@@ -14,7 +14,7 @@ from Loverbot.modules.helper_funcs.alternate import typing_action
 import Loverbot.modules.sql.rules_sql as rulessql
 
 import Loverbot.modules.sql.blacklist_sql as blacklistsql
-from Razerbot.modules.sql import disable_sql as disabledsql
+from Loverbot.modules.sql import disable_sql as disabledsql
 
 import Loverbot.modules.sql.locks_sql as locksql
 from Loverbot.modules.connection import connected
