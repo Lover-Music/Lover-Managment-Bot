@@ -5,19 +5,19 @@ from telegram import ParseMode, Message
 from telegram.error import BadRequest
 from telegram.ext import CommandHandler, run_async
 
-import Razerbot.modules.sql.notes_sql as sql
-from Razerbot import dispatcher, LOGGER, OWNER_ID, JOIN_LOGGER, SUPPORT_CHAT
-from Razerbot.__main__ import DATA_IMPORT
-from Razerbot.modules.helper_funcs.chat_status import user_admin
-from Razerbot.modules.helper_funcs.alternate import typing_action
+import Loverbot.modules.sql.notes_sql as sql
+from Loverbot import dispatcher, LOGGER, OWNER_ID, JOIN_LOGGER, SUPPORT_CHAT
+from Loverbot.__main__ import DATA_IMPORT
+from Loverbot.modules.helper_funcs.chat_status import user_admin
+from Loverbot.modules.helper_funcs.alternate import typing_action
 
-import Razerbot.modules.sql.rules_sql as rulessql
+import Loverbot.modules.sql.rules_sql as rulessql
 
-import Razerbot.modules.sql.blacklist_sql as blacklistsql
+import Loverbot.modules.sql.blacklist_sql as blacklistsql
 from Razerbot.modules.sql import disable_sql as disabledsql
 
-import Razerbot.modules.sql.locks_sql as locksql
-from Razerbot.modules.connection import connected
+import Loverbot.modules.sql.locks_sql as locksql
+from Loverbot.modules.connection import connected
 
 
 @run_async
