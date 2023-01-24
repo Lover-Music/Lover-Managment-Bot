@@ -8,8 +8,8 @@ from pymongo import MongoClient
 from datetime import datetime, timedelta
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, ChatPermissions
 
-from Razerbot import pbot
-from Razerbot import BOT_ID, MONGO_DB_URI
+from Loverbot import pbot
+from Loverbot import BOT_ID, MONGO_DB_URI
 
 
 client = MongoClient(MONGO_DB_URI)
