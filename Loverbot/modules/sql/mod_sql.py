@@ -2,7 +2,7 @@ import threading
 
 from sqlalchemy import Column, String, BigInteger
 
-from Razerbot.modules.sql import BASE, SESSION
+from Loverbot.modules.sql import BASE, SESSION
 
 
 class Mods(BASE):
