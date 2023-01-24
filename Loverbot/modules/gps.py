@@ -1,8 +1,8 @@
 import os
-from Razerbot import telethn as tbot
+from Loverbot import telethn as tbot
 from geopy.geocoders import Nominatim
-from Razerbot.events import register
-from Razerbot import *
+from Loverbot.events import register
+from Loverbot import *
 from telethon import *
 from telethon.tl import *
 
