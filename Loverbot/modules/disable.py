@@ -2,9 +2,9 @@ import importlib
 from typing import Union
 
 from future.utils import string_types
-from Razerbot import dispatcher
-from Razerbot.modules.helper_funcs.handlers import CMD_STARTERS, SpamChecker
-from Razerbot.modules.helper_funcs.misc import is_module_loaded
+from Loverbot import dispatcher
+from Loverbot.modules.helper_funcs.handlers import CMD_STARTERS, SpamChecker
+from Loverbot.modules.helper_funcs.misc import is_module_loaded
 from telegram import ParseMode, Update
 from telegram.ext import (
     CallbackContext,
@@ -25,7 +25,7 @@ if is_module_loaded(FILENAME):
         is_user_admin,
         user_admin,
     )
-    from Razerbot.modules.sql import disable_sql as sql
+    from Lovbot.modules.sql import disable_sql as sql
     from telegram.ext.dispatcher import run_async
 
     DISABLE_CMDS = []
