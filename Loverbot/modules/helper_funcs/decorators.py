@@ -1,4 +1,4 @@
-from Razerbot.modules.disable import (
+from Loverbot.modules.disable import (
     DisableAbleCommandHandler,
     DisableAbleMessageHandler,
 )
@@ -9,7 +9,7 @@ from telegram.ext import (
     InlineQueryHandler,
 )
 from telegram.ext.filters import BaseFilter
-from Razerbot import dispatcher as d, LOGGER
+from Loverbot import dispatcher as d, LOGGER
 from typing import Optional, Union, List
 
 
