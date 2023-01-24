@@ -1,9 +1,9 @@
 import asyncio
 from pyrogram import filters
-from Razerbot import pbot as app
+from Loverbot import pbot as app
 from pyrogram.types import Message
-from Razerbot import eor
-from Razerbot.utils.errors import capture_err
+from Loverbot import eor
+from Lovererbot.utils.errors import capture_err
 
 active_channel = []
 
