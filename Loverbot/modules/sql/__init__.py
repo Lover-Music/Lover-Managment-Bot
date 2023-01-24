@@ -2,7 +2,7 @@ from sqlalchemy import create_engine
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import sessionmaker, scoped_session
 
-from Razerbot import DB_URI, LOGGER as log
+from Loverbot import DB_URI, LOGGER as log
 
 if DB_URI and DB_URI.startswith("postgres://"):
     DB_URI = DB_URI.replace("postgres://", "postgresql://", 1)
