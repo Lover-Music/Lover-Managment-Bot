@@ -1,6 +1,6 @@
 import io
-from Razerbot.events import register
-from Razerbot import telethn as tbot
+from Loverbot.events import register
+from Loverbot import telethn as tbot
 from telethon import types
 from telethon import events
 from telethon.tl import functions, types
