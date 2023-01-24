@@ -1,7 +1,7 @@
 import threading
 from typing import Union
 
-from Razerbot.modules.sql import BASE, SESSION
+from Loverbot.modules.sql import BASE, SESSION
 from sqlalchemy import Boolean, Column, BigInteger, String
 
 class ReportingUserSettings(BASE):
