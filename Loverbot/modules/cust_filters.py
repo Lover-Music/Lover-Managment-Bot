@@ -15,15 +15,15 @@ from telegram.ext import (
 )
 from telegram.utils.helpers import mention_html, escape_markdown
 
-from Razerbot import dispatcher, LOGGER, DRAGONS
-from Razerbot.modules.disable import DisableAbleCommandHandler
-from Razerbot.modules.helper_funcs.handlers import MessageHandlerChecker
-from Razerbot.modules.helper_funcs.chat_status import user_admin
-from Razerbot.modules.helper_funcs.extraction import extract_text
-from Razerbot.modules.helper_funcs.filters import CustomFilters
-from Razerbot.modules.helper_funcs.misc import build_keyboard_parser
-from Razerbot.modules.helper_funcs.msg_types import get_filter_type
-from Razerbot.modules.helper_funcs.string_handling import (
+from Loverbot import dispatcher, LOGGER, DRAGONS
+from Loverbot.modules.disable import DisableAbleCommandHandler
+from Loverbot.modules.helper_funcs.handlers import MessageHandlerChecker
+from Loverbot.modules.helper_funcs.chat_status import user_admin
+from Loverbot.modules.helper_funcs.extraction import extract_text
+from Loverbot.modules.helper_funcs.filters import CustomFilters
+from Loverbot.modules.helper_funcs.misc import build_keyboard_parser
+from Loverbot.modules.helper_funcs.msg_types import get_filter_type
+from Loverbot.modules.helper_funcs.string_handling import (
     split_quotes,
     button_markdown_parser,
     escape_invalid_curly_brackets,
