@@ -5,8 +5,8 @@ try:
 except ModuleNotFoundError:
 	os.system("pip install moviepy")
 	from moviepy.video.io.ffmpeg_tools import ffmpeg_extract_subclip
-from Razerbot import telethn as tbot
-from Razerbot.events import register
+from Loverbot import telethn as tbot
+from Loverbot.events import register
 from telethon.tl.types import DocumentAttributeAudio
 
 @register(pattern="^[/!]hbds(?: |$)([\s\S]*)")
