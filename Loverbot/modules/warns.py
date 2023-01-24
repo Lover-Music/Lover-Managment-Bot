@@ -3,9 +3,9 @@ import re
 from typing import Optional
 
 import telegram
-from Razerbot import TIGERS, WOLVES, dispatcher
-from Razerbot.modules.disable import DisableAbleCommandHandler
-from Razerbot.modules.helper_funcs.chat_status import (
+from Loverbot import TIGERS, WOLVES, dispatcher
+from Loverbot.modules.disable import DisableAbleCommandHandler
+from Loverbot.modules.helper_funcs.chat_status import (
     bot_admin,
     can_restrict,
     is_user_admin,
@@ -14,16 +14,16 @@ from Razerbot.modules.helper_funcs.chat_status import (
     user_admin_no_reply,
     can_delete,
 )
-from Razerbot.modules.helper_funcs.extraction import (
+from Loverbot.modules.helper_funcs.extraction import (
     extract_text,
     extract_user,
     extract_user_and_text,
 )
-from Razerbot.modules.helper_funcs.filters import CustomFilters
-from Razerbot.modules.helper_funcs.misc import split_message
-from Razerbot.modules.helper_funcs.string_handling import split_quotes
-from Razerbot.modules.log_channel import loggable
-from Razerbot.modules.sql import warns_sql as sql
+from Lovererbot.modules.helper_funcs.filters import CustomFilters
+from Loverbot.modules.helper_funcs.misc import split_message
+from Loverbot.modules.helper_funcs.string_handling import split_quotes
+from Loverbot.modules.log_channel import loggable
+from Loverbot.modules.sql import warns_sql as sql
 from telegram import (
     CallbackQuery,
     Chat,
@@ -45,7 +45,7 @@ from telegram.ext import (
     run_async,
 )
 from telegram.utils.helpers import mention_html
-from Razerbot.modules.sql.approve_sql import is_approved
+from Loverbot.modules.sql.approve_sql import is_approved
 
 WARN_HANDLER_GROUP = 9
 CURRENT_WARNING_FILTER_STRING = "<b>Current warning filters in this chat:</b>\n"
