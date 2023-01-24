@@ -1,7 +1,7 @@
 import os
 from time import sleep
 
-from Lovererbot import OWNER_ID, dispatcher
+from Loverbot import OWNER_ID, dispatcher
 from Loverbot.modules.helper_funcs.extraction import extract_user
 from Loverbot.modules.sql.users_sql import get_user_com_chats
 from telegram import Update
