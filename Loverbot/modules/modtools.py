@@ -3,9 +3,9 @@ import importlib
 import sys
 import os
 from pathlib import Path
-from Razerbot import LOGGER as LOGS, telethn as tbot
-from Razerbot.modules.helper_funcs.chat_status import dev_plus 
-from Razerbot.events import register
+from Loverbot import LOGGER as LOGS, telethn as tbot
+from Loverbot.modules.helper_funcs.chat_status import dev_plus 
+from Loverbot.events import register
 
 MOD_INFO = {}
 LOADED_CMDS = {}
