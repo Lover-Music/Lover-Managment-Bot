@@ -9,9 +9,9 @@ from telegram import (
     InlineKeyboardMarkup,
     InlineKeyboardButton,
 )
-from Razerbot import dispatcher, pbot
+from Loverbot import dispatcher, pbot
 from pyrogram import filters
-from Razerbot.modules.disable import DisableAbleCommandHandler
+from Loverbot.modules.disable import DisableAbleCommandHandler
 
 
 __help__ = """ 
