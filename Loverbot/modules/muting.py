@@ -1,20 +1,20 @@
 import html
 from typing import Optional
 
-from Razerbot import LOGGER, TIGERS, dispatcher
-from Razerbot.modules.helper_funcs.chat_status import (
+from Loverbot import LOGGER, TIGERS, dispatcher
+from Loverbot.modules.helper_funcs.chat_status import (
     bot_admin,
     can_restrict,
     connection_status,
     is_user_admin,
     user_admin,
 )
-from Razerbot.modules.helper_funcs.extraction import (
+from Loverbot.modules.helper_funcs.extraction import (
     extract_user,
     extract_user_and_text,
 )
-from Razerbot.modules.helper_funcs.string_handling import extract_time
-from Razerbot.modules.log_channel import loggable
+from Loverbot.modules.helper_funcs.string_handling import extract_time
+from Loverbot.modules.log_channel import loggable
 from telegram import Bot, Chat, ChatPermissions, ParseMode, Update
 from telegram.error import BadRequest
 from telegram.ext import CallbackContext, CommandHandler, run_async
