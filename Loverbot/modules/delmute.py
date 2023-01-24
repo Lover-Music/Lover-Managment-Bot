@@ -1,6 +1,6 @@
 import asyncio
-from Razerbot.modules.sql.mute_sql import *
-from Razerbot import pbot, EVENT_LOGS, LOGGER, BOT_ID, OWNER_ID
+from Loverbot.modules.sql.mute_sql import *
+from Loverbot import pbot, EVENT_LOGS, LOGGER, BOT_ID, OWNER_ID
 
 from pyrogram.enums import ChatMemberStatus, ChatType
 from pyrogram import filters
