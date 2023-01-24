@@ -1,8 +1,8 @@
 import requests
 from validators.url import url
-from Razerbot import telethn as tbot
+from Loverbot import telethn as tbot
 from telethon import Button
-from Razerbot.events import register
+from Loverbot.events import register
 
 @register(pattern="^[!/.]dns(?:\s|$)([\s\S]*)")
 async def _(event):
