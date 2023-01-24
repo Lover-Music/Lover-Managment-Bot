@@ -6,18 +6,18 @@ from telegram.error import BadRequest
 from telegram.ext import CommandHandler, MessageHandler, Filters, run_async
 from telegram.utils.helpers import mention_html
 
-import Razerbot.modules.sql.blacklist_sql as sql
-from Razerbot import dispatcher, LOGGER
-from Razerbot.modules.disable import DisableAbleCommandHandler
-from Razerbot.modules.helper_funcs.chat_status import user_admin, user_not_admin
-from Razerbot.modules.helper_funcs.extraction import extract_text
-from Razerbot.modules.helper_funcs.misc import split_message
-from Razerbot.modules.log_channel import loggable
-from Razerbot.modules.warns import warn
-from Razerbot.modules.helper_funcs.string_handling import extract_time
-from Razerbot.modules.connection import connected
-from Razerbot.modules.sql.approve_sql import is_approved
-from Razerbot.modules.helper_funcs.alternate import send_message, typing_action
+import Loverbot.modules.sql.blacklist_sql as sql
+from Loverbot import dispatcher, LOGGER
+from Loverbot.modules.disable import DisableAbleCommandHandler
+from Loverbot.modules.helper_funcs.chat_status import user_admin, user_not_admin
+from Loverbot.modules.helper_funcs.extraction import extract_text
+from Loverbot.modules.helper_funcs.misc import split_message
+from Loverbot.modules.log_channel import loggable
+from Loverbot.modules.warns import warn
+from Loverbot.modules.helper_funcs.string_handling import extract_time
+from Loverbot.modules.connection import connected
+from Loverbot.modules.sql.approve_sql import is_approved
+from Loverbot.modules.helper_funcs.alternate import send_message, typing_action
 
 BLACKLIST_GROUP = 11
 
