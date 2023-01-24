@@ -1,17 +1,17 @@
 import html
 from typing import Optional
 
-import Razerbot.modules.sql.blsticker_sql as sql
-from Razerbot import LOGGER, dispatcher
-from Razerbot.modules.connection import connected
-from Razerbot.modules.disable import DisableAbleCommandHandler
-from Razerbot.modules.helper_funcs.alternate import send_message
-from Razerbot.modules.helper_funcs.chat_status import user_admin, user_not_admin
-from Razerbot.modules.helper_funcs.misc import split_message
-from Razerbot.modules.helper_funcs.string_handling import extract_time
+import Loverbot.modules.sql.blsticker_sql as sql
+from Loverbot import LOGGER, dispatcher
+from Loverbot.modules.connection import connected
+from Loverbot.modules.disable import DisableAbleCommandHandler
+from Loverbot.modules.helper_funcs.alternate import send_message
+from Loverbot.modules.helper_funcs.chat_status import user_admin, user_not_admin
+from Loverbot.modules.helper_funcs.misc import split_message
+from Loverbot.modules.helper_funcs.string_handling import extract_time
 
-from Razerbot.modules.log_channel import loggable
-from Razerbot.modules.warns import warn
+from Loverbot.modules.log_channel import loggable
+from Loverbot.modules.warns import warn
 from telegram import Chat, Message, ParseMode, Update, User, ChatPermissions
 from telegram.error import BadRequest
 from telegram.ext import CallbackContext, CommandHandler, Filters, MessageHandler
