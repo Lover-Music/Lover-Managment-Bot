@@ -1,14 +1,14 @@
 import html
-import Razerbot.modules.sql.mod_sql as sql
-from Razerbot.modules.disable import DisableAbleCommandHandler
-from Razerbot import dispatcher, DRAGONS
-from Razerbot.modules.helper_funcs.extraction import extract_user
+import Loverbot.modules.sql.mod_sql as sql
+from Loverbot.modules.disable import DisableAbleCommandHandler
+from Loverbot import dispatcher, DRAGONS
+from Loverbot.modules.helper_funcs.extraction import extract_user
 from telegram.ext import CallbackContext, run_async, CallbackQueryHandler
 from telegram import ParseMode, InlineKeyboardMarkup, InlineKeyboardButton, Update
 from telegram.utils.helpers import mention_html
 from telegram.error import BadRequest
-from Razerbot.modules.helper_funcs.chat_status import user_admin
-from Razerbot.modules.log_channel import loggable
+from Loverbot.modules.helper_funcs.chat_status import user_admin
+from Loverbot.modules.log_channel import loggable
 
 @run_async
 @loggable
