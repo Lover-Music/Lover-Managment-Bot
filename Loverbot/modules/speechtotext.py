@@ -10,9 +10,9 @@ from telethon.tl import functions
 from telethon.tl import types
 from telethon.tl.types import *
 
-from Razerbot import *
-from Razerbot.events import register
-from Razerbot import telethn as tbot
+from Loverbot import *
+from Loverbot.events import register
+from Loverbot import telethn as tbot
 
 
 async def is_register_admin(chat, user):
