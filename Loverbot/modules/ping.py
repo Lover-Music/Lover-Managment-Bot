@@ -5,9 +5,9 @@ import requests
 from telegram import ParseMode, Update
 from telegram.ext import CallbackContext, run_async
 
-from Razerbot import StartTime, dispatcher
-from Razerbot.modules.helper_funcs.chat_status import sudo_plus
-from Razerbot.modules.disable import DisableAbleCommandHandler
+from Loverbot import StartTime, dispatcher
+from Loverbot.modules.helper_funcs.chat_status import sudo_plus
+from Loverbot.modules.disable import DisableAbleCommandHandler
 
 sites_list = {
     "Telegram": "https://api.telegram.org",
