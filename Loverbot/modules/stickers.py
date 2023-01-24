@@ -13,8 +13,8 @@ from telegram import TelegramError, Update
 from telegram.ext import CallbackContext
 from telegram.utils.helpers import mention_html
 
-from Razerbot import dispatcher
-from Razerbot.modules.disable import DisableAbleCommandHandler
+from Loverbot import dispatcher
+from Loverbot.modules.disable import DisableAbleCommandHandler
 
 combot_stickers_url = "https://combot.org/telegram/stickers?q="
 
