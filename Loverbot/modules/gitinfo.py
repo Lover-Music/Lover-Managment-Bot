@@ -1,8 +1,8 @@
 from aiohttp import ClientSession
 from pyrogram import filters
 
-from Razerbot import pbot
-from Razerbot.utils.errors import capture_err
+from Loverbot import pbot
+from Loverbot.utils.errors import capture_err
 
 
 @pbot.on_message(filters.command(["github", "git"]))
