@@ -6,8 +6,8 @@ import time
 import uuid
 from io import BytesIO
 
-import Razerbot.modules.sql.feds_sql as sql
-from Razerbot import (
+import Loverbot.modules.sql.feds_sql as sql
+from Loverbot import (
     EVENT_LOGS,
     LOGGER,
     SUPPORT_CHAT,
