@@ -3,9 +3,9 @@ import time
 from datetime import datetime as dt
 from random import choice
 from shutil import rmtree
-from Razerbot import quotly
-from Razerbot.quotstuff.quothelp import eor
-from Razerbot.events import register
+from Loverbot import quotly
+from Loverbot.quotstuff.quothelp import eor
+from Loverbot.events import register
 
 @register(pattern="^/q(?: |$)(.*)")
 async def quott_(event):
