@@ -1,7 +1,7 @@
-from Razerbot import pbot as app
-from Razerbot.pyrogramee.errors import capture_err
-from Razerbot.pyrogramee.json_prettify import json_prettify
-from Razerbot.pyrogramee.fetch import fetch
+from Loverbot import pbot as app
+from Loverbot.pyrogramee.errors import capture_err
+from Loverbot.pyrogramee.json_prettify import json_prettify
+from Loverbot.pyrogramee.fetch import fetch
 from pyrogram import filters
 
 
