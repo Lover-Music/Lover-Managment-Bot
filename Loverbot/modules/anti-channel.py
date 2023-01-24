@@ -3,7 +3,7 @@ from pyrogram import filters
 from Loverbot import pbot as app
 from pyrogram.types import Message
 from Loverbot import eor
-from Lovererbot.utils.errors import capture_err
+from Loverbot.utils.errors import capture_err
 
 active_channel = []
 
