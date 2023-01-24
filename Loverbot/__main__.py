@@ -49,7 +49,7 @@ from Loverbot import (
     updater,
 )
 from Loverbot.modules import ALL_MODULES
-from Loverrbot.modules.helper_funcs.chat_status import is_user_admin
+from Loverbot.modules.helper_funcs.chat_status import is_user_admin
 from Loverbot.modules.helper_funcs.misc import paginate_modules
 
 
