@@ -1,6 +1,6 @@
-from Razerbot import pbot as app
-from Razerbot.utils.errors import capture_err
-from Razerbot.utils.mongo import get_couple, save_couple
+from Loverbot import pbot as app
+from Loverbot.utils.errors import capture_err
+from Loverbot.utils.mongo import get_couple, save_couple
 
 from pyrogram import filters, enums
 import random
