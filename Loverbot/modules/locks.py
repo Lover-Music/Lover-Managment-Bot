@@ -7,20 +7,20 @@ from telegram.ext import CommandHandler, Filters, MessageHandler
 from telegram.ext.dispatcher import run_async
 from telegram.utils.helpers import mention_html
 
-import Razerbot.modules.sql.locks_sql as sql
-from Razerbot import DRAGONS, LOGGER, dispatcher
-from Razerbot.modules.connection import connected
-from Razerbot.modules.disable import DisableAbleCommandHandler
-from Razerbot.modules.helper_funcs.alternate import send_message, typing_action
-from Razerbot.modules.helper_funcs.chat_status import (
+import Loverbot.modules.sql.locks_sql as sql
+from Loverbot import DRAGONS, LOGGER, dispatcher
+from Loverbot.modules.connection import connected
+from Loverbot.modules.disable import DisableAbleCommandHandler
+from Loverbot.modules.helper_funcs.alternate import send_message, typing_action
+from Loverbot.modules.helper_funcs.chat_status import (
     can_delete,
     is_bot_admin,
     is_user_admin,
     user_admin,
     user_not_admin,
 )
-from Razerbot.modules.log_channel import loggable
-from Razerbot.modules.sql.approve_sql import is_approved
+from Loverbot.modules.log_channel import loggable
+from Loverbot.modules.sql.approve_sql import is_approved
 
 
 def al_detect(unistr):
