@@ -5,8 +5,8 @@ from io import BytesIO
 from pyrogram import filters
 from pyrogram.types import Message
 
-from Razerbot import pbot as app
-from Razerbot.utils.post import post
+from Loverbot import pbot as app
+from Loverbot.utils.post import post
 
 
 async def take_screenshot(url: str, full: bool = False):
