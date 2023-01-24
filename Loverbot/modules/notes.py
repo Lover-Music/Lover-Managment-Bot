@@ -3,14 +3,14 @@ from io import BytesIO
 import random
 from typing import Optional
 
-import Razerbot.modules.sql.notes_sql as sql
-from Razerbot import LOGGER, JOIN_LOGGER, SUPPORT_CHAT, dispatcher, DRAGONS
-from Razerbot.modules.disable import DisableAbleCommandHandler
-from Razerbot.modules.helper_funcs.handlers import MessageHandlerChecker
-from Razerbot.modules.helper_funcs.chat_status import user_admin, connection_status
-from Razerbot.modules.helper_funcs.misc import build_keyboard, revert_buttons
-from Razerbot.modules.helper_funcs.msg_types import get_note_type
-from Razerbot.modules.helper_funcs.string_handling import (
+import Loverbot.modules.sql.notes_sql as sql
+from Loverbot import LOGGER, JOIN_LOGGER, SUPPORT_CHAT, dispatcher, DRAGONS
+from Loverbot.modules.disable import DisableAbleCommandHandler
+from Loverbot.modules.helper_funcs.handlers import MessageHandlerChecker
+from Loverbot.modules.helper_funcs.chat_status import user_admin, connection_status
+from Loverbot.modules.helper_funcs.misc import build_keyboard, revert_buttons
+from Loverbot.modules.helper_funcs.msg_types import get_note_type
+from Loverbot.modules.helper_funcs.string_handling import (
     escape_invalid_curly_brackets,
 )
 from telegram import (
