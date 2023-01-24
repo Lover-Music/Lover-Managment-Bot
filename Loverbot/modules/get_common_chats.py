@@ -1,9 +1,9 @@
 import os
 from time import sleep
 
-from Razerbot import OWNER_ID, dispatcher
-from Razerbot.modules.helper_funcs.extraction import extract_user
-from Razerbot.modules.sql.users_sql import get_user_com_chats
+from Lovererbot import OWNER_ID, dispatcher
+from Loverbot.modules.helper_funcs.extraction import extract_user
+from Loverbot.modules.sql.users_sql import get_user_com_chats
 from telegram import Update
 from telegram.error import BadRequest, RetryAfter, Unauthorized
 from telegram.ext import CallbackContext, CommandHandler, Filters
