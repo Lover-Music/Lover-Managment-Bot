@@ -20,12 +20,12 @@ FILENAME = __name__.rsplit(".", 1)[-1]
 # If module is due to be loaded, then setup all the magical handlers
 if is_module_loaded(FILENAME):
 
-    from Razerbot.modules.helper_funcs.chat_status import (
+    from Loverbot.modules.helper_funcs.chat_status import (
         connection_status,
         is_user_admin,
         user_admin,
     )
-    from Lovbot.modules.sql import disable_sql as sql
+    from Loverbot.modules.sql import disable_sql as sql
     from telegram.ext.dispatcher import run_async
 
     DISABLE_CMDS = []
