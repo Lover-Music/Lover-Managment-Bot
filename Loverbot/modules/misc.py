@@ -1,6 +1,6 @@
-from Razerbot.modules.helper_funcs.chat_status import user_admin
-from Razerbot.modules.disable import DisableAbleCommandHandler
-from Razerbot import dispatcher
+from Loverbot.modules.helper_funcs.chat_status import user_admin
+from Loverbot.modules.disable import DisableAbleCommandHandler
+from Loverbot import dispatcher
 
 from telegram import InlineKeyboardButton, InlineKeyboardMarkup
 from telegram import ParseMode, Update
