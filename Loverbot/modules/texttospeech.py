@@ -7,9 +7,9 @@ from telethon.tl import functions
 from telethon.tl import types
 from telethon.tl.types import *
 
-from Razerbot import *
-from Razerbot import telethn as tbot
-from Razerbot.events import register
+from Loverbot import *
+from Loverbot import telethn as tbot
+from Loverbot.events import register
 
 
 @register(pattern="^/tts (.*)")
