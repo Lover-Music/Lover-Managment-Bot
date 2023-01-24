@@ -1,8 +1,8 @@
 import importlib
 import collections
 
-from Razerbot import dispatcher, telethn
-from Razerbot.__main__ import (
+from Loverbot import dispatcher, telethn
+from Loverbot.__main__ import (
     CHAT_SETTINGS,
     DATA_EXPORT,
     DATA_IMPORT,
@@ -13,7 +13,7 @@ from Razerbot.__main__ import (
     USER_INFO,
     USER_SETTINGS,
 )
-from Razerbot.modules.helper_funcs.chat_status import dev_plus, sudo_plus
+from Loverbot.modules.helper_funcs.chat_status import dev_plus, sudo_plus
 from telegram import ParseMode, Update
 from telegram.ext import CallbackContext, CommandHandler, run_async
 
