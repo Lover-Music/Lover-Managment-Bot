@@ -403,6 +403,6 @@ def connection_status(func):
 
 
 # Workaround for circular import with connection.py
-from Razerbot.modules import connection
+from Loverbot.modules import connection
 
 connected = connection.connected
