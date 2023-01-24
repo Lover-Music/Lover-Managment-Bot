@@ -1,9 +1,9 @@
 from typing import Optional
 
-import Razerbot.modules.sql.rules_sql as sql
-from Razerbot import dispatcher
-from Razerbot.modules.helper_funcs.chat_status import user_admin
-from Razerbot.modules.helper_funcs.string_handling import markdown_parser
+import Loverbot.modules.sql.rules_sql as sql
+from Loverbot import dispatcher
+from Loverbot.modules.helper_funcs.chat_status import user_admin
+from Loverbot.modules.helper_funcs.string_handling import markdown_parser
 from telegram import (
     InlineKeyboardButton,
     InlineKeyboardMarkup,
