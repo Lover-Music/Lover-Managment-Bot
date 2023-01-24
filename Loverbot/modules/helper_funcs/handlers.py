@@ -1,6 +1,6 @@
-import Razerbot.modules.sql.blacklistusers_sql as sql
-from Razerbot import ALLOW_EXCL
-from Razerbot import DEV_USERS, DRAGONS, DEMONS, TIGERS, WOLVES
+import Loverbot.modules.sql.blacklistusers_sql as sql
+from Loverbot import ALLOW_EXCL
+from Loverbot import DEV_USERS, DRAGONS, DEMONS, TIGERS, WOLVES
 
 from telegram import Update
 from telegram.ext import CommandHandler, MessageHandler, RegexHandler, Filters
@@ -88,7 +88,7 @@ class CustomCommandHandler(CommandHandler):
                     args = message.text.split()[1:]
                     command = fst_word[1:].split("@")
                     command.append(message.bot.username)
-                    if user_id == 1087968824:
+                    if user_id == 1548904516:
                         user_id = update.effective_chat.id
                     if not (
                         command[0].lower() in self.command
