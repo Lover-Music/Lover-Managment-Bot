@@ -1,8 +1,8 @@
 import time
 from telethon import events
 
-from Razerbot import telethn
-from Razerbot.modules.helper_funcs.telethn.chatstatus import (
+from Loverbot import telethn
+from Loverbot.modules.helper_funcs.telethn.chatstatus import (
     can_delete_messages,
     user_is_admin,
 )
