@@ -5,7 +5,7 @@ from telethon.utils import get_input_location
 import flag
 import html, os
 from countryinfo import CountryInfo
-from Razerbot import telethn as borg, BOT_USERNAME
+from Loverbot import telethn as borg, BOT_USERNAME
 from telethon import events
 
 
