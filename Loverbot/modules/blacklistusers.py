@@ -1,7 +1,7 @@
 # Module to blacklist users and prevent them from using commands by @TheRealPhoenix
 import html
-import Razerbot.modules.sql.blacklistusers_sql as sql
-from Razerbot import (
+import Loverbot.modules.sql.blacklistusers_sql as sql
+from Loverbot import (
     DEV_USERS,
     OWNER_ID,
     DRAGONS,
@@ -10,12 +10,12 @@ from Razerbot import (
     WOLVES,
     dispatcher,
 )
-from Razerbot.modules.helper_funcs.chat_status import dev_plus
-from Razerbot.modules.helper_funcs.extraction import (
+from Loverbot.modules.helper_funcs.chat_status import dev_plus
+from Loverbot.modules.helper_funcs.extraction import (
     extract_user,
     extract_user_and_text,
 )
-from Razerbot.modules.log_channel import gloggable
+from Loverbot.modules.log_channel import gloggable
 from telegram import ParseMode, Update
 from telegram.error import BadRequest
 from telegram.ext import CallbackContext, CommandHandler, run_async
