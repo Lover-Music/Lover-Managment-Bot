@@ -1,5 +1,5 @@
-from Razerbot.modules.helper_funcs.telethn import IMMUNE_USERS, telethn
-from Razerbot import DRAGONS
+from Loverbot.modules.helper_funcs.telethn import IMMUNE_USERS, telethn
+from Loverbot import DRAGONS
 from telethon.tl.types import ChannelParticipantsAdmins
 
 
