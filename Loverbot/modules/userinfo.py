@@ -18,7 +18,7 @@ from telegram.ext.dispatcher import run_async
 from telegram.error import BadRequest
 from telegram.utils.helpers import escape_markdown, mention_html
     
-from Razerbot import (
+from Loverbot import (
     DEV_USERS,
     OWNER_ID,
     DRAGONS,
@@ -32,16 +32,16 @@ from Razerbot import (
     SUPPORT_CHAT,
     BOT_NAME,
 )
-from Razerbot.__main__ import STATS, TOKEN, USER_INFO
-from Razerbot.modules.sql import SESSION
-import Razerbot.modules.sql.userinfo_sql as sql
-from Razerbot.modules.disable import DisableAbleCommandHandler
-from Razerbot.modules.sql.global_bans_sql import is_user_gbanned
-from Razerbot.modules.sql.afk_sql import is_afk, set_afk
-from Razerbot.modules.sql.users_sql import get_user_num_chats
-from Razerbot.modules.helper_funcs.chat_status import sudo_plus
-from Razerbot.modules.helper_funcs.extraction import extract_user
-from Razerbot import telethn
+from Loverbot.__main__ import STATS, TOKEN, USER_INFO
+from Loverbot.modules.sql import SESSION
+import Loverbot.modules.sql.userinfo_sql as sql
+from Loverbot.modules.disable import DisableAbleCommandHandler
+from Loverbot.modules.sql.global_bans_sql import is_user_gbanned
+from Loverbot.modules.sql.afk_sql import is_afk, set_afk
+from Loverbot.modules.sql.users_sql import get_user_num_chats
+from Loverbot.modules.helper_funcs.chat_status import sudo_plus
+from Loverbot.modules.helper_funcs.extraction import extract_user
+from Loverbot import telethn
 
 def no_by_per(totalhp, percentage):
     """
