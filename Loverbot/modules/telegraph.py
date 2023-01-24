@@ -1,7 +1,7 @@
 import os
 
-from Razerbot import telethn as tbot
-from Razerbot.events import register
+from Loverbot import telethn as tbot
+from Loverbot.events import register
 from telethon import Button, types
 
 TMP_DOWNLOAD_DIRECTORY = "./"
@@ -11,9 +11,9 @@ from datetime import datetime
 from telegraph import Telegraph, upload_file, exceptions
 
 
-razer = "Razerbot"
+razer = "Loverbot"
 telegraph = Telegraph()
-data = telegraph.create_account(short_name=razer)
+data = telegraph.create_account(short_name=lover)
 auth_url = data["auth_url"]
 
 
