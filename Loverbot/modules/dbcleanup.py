@@ -1,9 +1,9 @@
 from time import sleep
 
-import Razerbot.modules.sql.global_bans_sql as gban_sql
-import Razerbot.modules.sql.users_sql as user_sql
-from Razerbot import DEV_USERS, OWNER_ID, dispatcher
-from Razerbot.modules.helper_funcs.chat_status import dev_plus
+import Loverbot.modules.sql.global_bans_sql as gban_sql
+import Loverbot.modules.sql.users_sql as user_sql
+from Loverbot import DEV_USERS, OWNER_ID, dispatcher
+from Loverbot.modules.helper_funcs.chat_status import dev_plus
 from telegram import InlineKeyboardButton, InlineKeyboardMarkup, Update
 from telegram.error import BadRequest, Unauthorized
 from telegram.ext import (
