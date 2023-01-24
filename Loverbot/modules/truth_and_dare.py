@@ -1,9 +1,9 @@
 import html
 import random
-import Razerbot.modules.truth_and_dare_string as truth_and_dare_string
-from Razerbot import dispatcher
+import Loverbot.modules.truth_and_dare_string as truth_and_dare_string
+from Loverbot import dispatcher
 from telegram import ParseMode, Update, Bot
-from Razerbot.modules.disable import DisableAbleCommandHandler
+from Loverbot.modules.disable import DisableAbleCommandHandler
 from telegram.ext import CallbackContext, run_async
 
 @run_async
