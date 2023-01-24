@@ -4,7 +4,7 @@ import random
 import requests
 from bs4 import BeautifulSoup
 from telethon import events
-from Razerbot import telethn, SUPPORT_GROUP
+from Loverbot import telethn, SUPPORT_GROUP
 
 async def wall_download(piclink, query):
     try:
