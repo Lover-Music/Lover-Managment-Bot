@@ -4,8 +4,8 @@ import os
 import json
 from faker import Faker
 from datetime import date
-from Razerbot import telethn as tbot
-from Razerbot.events import register
+from Loverbot import telethn as tbot
+from Loverbot.events import register
 
 @register(pattern="^[!/.]ranuser")
 async def gen(event):
