@@ -5,12 +5,12 @@ from telegram.error import BadRequest
 from telegram.ext import CallbackContext, CallbackQueryHandler, run_async
 from telegram.utils.helpers import mention_html
 
-import Razerbot.modules.sql.approve_sql as sql
-from Razerbot import DRAGONS, dispatcher
-from Razerbot.modules.disable import DisableAbleCommandHandler
-from Razerbot.modules.helper_funcs.chat_status import user_admin
-from Razerbot.modules.helper_funcs.extraction import extract_user
-from Razerbot.modules.log_channel import loggable
+import Loverbot.modules.sql.approve_sql as sql
+from Loverbot import DRAGONS, dispatcher
+from Loverbot.modules.disable import DisableAbleCommandHandler
+from Loverbot.modules.helper_funcs.chat_status import user_admin
+from Loverbot.modules.helper_funcs.extraction import extract_user
+from Loverbot.modules.log_channel import loggable
 
 
 @loggable
