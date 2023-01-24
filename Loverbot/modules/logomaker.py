@@ -11,10 +11,10 @@ from io import BytesIO
 from requests import get
 from telethon.tl.types import InputMessagesFilterPhotos
 from telethon import events
-from Razerbot import OWNER_ID
-from Razerbot import telethn
+from Loverbot import OWNER_ID
+from Loverbot import telethn
 from PIL import Image, ImageDraw, ImageFont
-from Razerbot import SUPPORT_GROUP, BOT_NAME, BOT_USERNAME
+from Loverbot import SUPPORT_GROUP, BOT_NAME, BOT_USERNAME
 
 LOGO_LINKS            = ["https://telegra.ph/file/d1838efdafce9fe611d0c.jpg",
                          "https://telegra.ph/file/c1ff2d5ec5e1b5bd1b200.jpg",
@@ -263,7 +263,7 @@ async def lego(event):
     pointsize = 500
     fillcolor = "black"
     shadowcolor = "blue"
-    fnt = glob.glob("./Razerbot/resources/font/*")
+    fnt = glob.glob("./Loverbot/resources/font/*")
     randf = random.choice(fnt)
     font = ImageFont.truetype(randf, 120)
     w, h = draw.textsize(text, font=font)
