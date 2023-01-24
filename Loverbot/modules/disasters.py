@@ -3,7 +3,7 @@ import json
 import os
 from typing import Optional
 
-from Razerbot import (
+from Loverbot import (
     DEV_USERS,
     OWNER_ID,
     DRAGONS,
@@ -13,17 +13,17 @@ from Razerbot import (
     WOLVES,
     dispatcher,
 )
-from Razerbot.modules.helper_funcs.chat_status import (
+from Loverbot.modules.helper_funcs.chat_status import (
     dev_plus,
     sudo_plus,
     whitelist_plus,
 )
-from Razerbot.modules.helper_funcs.extraction import extract_user
-from Razerbot.modules.log_channel import gloggable
+from Loverbot.modules.helper_funcs.extraction import extract_user
+from Loverbot.modules.log_channel import gloggable
 from telegram import ParseMode, TelegramError, Update
 from telegram.ext import CallbackContext, CommandHandler, run_async
 from telegram.utils.helpers import mention_html
-from Razerbot.events import register
+from Loverbot.events import register
 
 ELEVATED_USERS_FILE = os.path.join(os.getcwd(), "Razerbot/elevated_users.json")
 
