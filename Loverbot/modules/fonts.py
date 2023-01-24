@@ -3,8 +3,8 @@ import re
 from pyrogram import filters
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
-from Razerbot import pbot as Client
-from Razerbot.utils.fonts import Fonts
+from Loverbot import pbot as Client
+from Loverbot.utils.fonts import Fonts
 
 @Client.on_message(filters.command(r"fon(t|ts)"))
 async def style_buttons(c, m, cb=False):
