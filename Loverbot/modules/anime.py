@@ -5,8 +5,8 @@ import textwrap
 import bs4
 import jikanpy
 import requests
-from Razerbot import dispatcher
-from Razerbot.modules.disable import DisableAbleCommandHandler
+from Loverbot import dispatcher
+from Loverbot.modules.disable import DisableAbleCommandHandler
 from telegram import InlineKeyboardButton, InlineKeyboardMarkup, ParseMode, Update, Message
 from telegram.ext import CallbackContext, run_async
 
