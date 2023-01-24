@@ -2,8 +2,8 @@ import threading
 
 from sqlalchemy import Column, String, UnicodeText, Boolean, BigInteger, distinct, func
 
-from Razerbot.modules.helper_funcs.msg_types import Types
-from Razerbot.modules.sql import BASE, SESSION
+from Loverbot.modules.helper_funcs.msg_types import Types
+from Loverbot.modules.sql import BASE, SESSION
 
 class CustomFilters(BASE):
     __tablename__ = "cust_filters"
