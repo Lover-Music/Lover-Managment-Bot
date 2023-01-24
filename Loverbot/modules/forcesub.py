@@ -10,9 +10,9 @@ from pyrogram.errors.exceptions.bad_request_400 import (
 )
 from pyrogram.types import ChatPermissions, InlineKeyboardButton, InlineKeyboardMarkup
 
-from Razerbot import DRAGONS as SUDO_USERS, BOT_NAME
-from Razerbot import pbot
-from Razerbot.modules.sql import forceSubscribe_sql as sql
+from Loverbot import DRAGONS as SUDO_USERS, BOT_NAME
+from Loverbot import pbot
+from Loverbot.modules.sql import forceSubscribe_sql as sql
 
 logging.basicConfig(level=logging.INFO)
 
