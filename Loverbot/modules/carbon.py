@@ -1,7 +1,7 @@
 from pyrogram.types import Message
 from pyrogram import filters
-from Razerbot import pbot as app, aiohttpsession as aiosession
-from Razerbot.utils.errors import capture_err
+from Loverbot import pbot as app, aiohttpsession as aiosession
+from Loverbot.utils.errors import capture_err
 from asyncio import gather
 from io import BytesIO
 
