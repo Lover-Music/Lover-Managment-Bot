@@ -1,6 +1,6 @@
 import os
-from Razerbot import telethn as tbot
-from Razerbot.events import register
+from Loverbot import telethn as tbot
+from Loverbot.events import register
 from telethon import events
 try:
 	from phlogo import generate
