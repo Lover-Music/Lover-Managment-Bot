@@ -1,6 +1,6 @@
 import threading
 
-from Razerbot.modules.sql import BASE, SESSION
+from Loverbot.modules.sql import BASE, SESSION
 from sqlalchemy import Column, BigInteger, UnicodeText
 
 class RSS(BASE):
