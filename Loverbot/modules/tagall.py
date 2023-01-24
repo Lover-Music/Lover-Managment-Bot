@@ -6,13 +6,14 @@ from telethon.tl.types import ChannelParticipantAdmin
 from telethon.tl.types import ChannelParticipantCreator
 from telethon.tl.functions.channels import GetParticipantRequest
 from telethon.errors import UserNotParticipantError
-from Razerbot import telethn as client
+from Loverbot import telethn as client
 
 
 spam_chats = []
 
 @client.on(events.NewMessage(pattern="^/tagall ?(.*)"))
 @client.on(events.NewMessage(pattern="^@all ?(.*)"))
+@client.on(events.NewMessage(pattern="^/all ?(.*)"))
 async def mentionall(event):
   chat_id = event.chat_id
   if event.is_private:
