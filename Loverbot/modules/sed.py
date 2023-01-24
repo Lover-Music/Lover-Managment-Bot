@@ -2,9 +2,9 @@ import sre_constants
 
 import regex
 import telegram
-from Razerbot import LOGGER, dispatcher
-from Razerbot.modules.disable import DisableAbleMessageHandler
-from Razerbot.modules.helper_funcs.regex_helper import infinite_loop_check
+from Loverbot import LOGGER, dispatcher
+from Loverbot.modules.disable import DisableAbleMessageHandler
+from Loverbot.modules.helper_funcs.regex_helper import infinite_loop_check
 from telegram import Update
 from telegram.ext import CallbackContext, Filters, run_async
 
