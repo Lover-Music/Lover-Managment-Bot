@@ -2,7 +2,7 @@ import threading
 
 from sqlalchemy import Column, String, UnicodeText, BigInteger, func, distinct
 
-from Razerbot.modules.sql import BASE, SESSION
+from Loverbot.modules.sql import BASE, SESSION
 
 class Approvals(BASE):
     __tablename__ = "approval"
