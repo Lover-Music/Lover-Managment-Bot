@@ -5,9 +5,9 @@ from telegram.ext import CommandHandler, CallbackQueryHandler, run_async
 from Loverbot import dispatcher, DRAGONS, DEV_USERS
 
 PRIVACY_P_TEXT = """
-* Our contact details * \n*Name*: RazerBot \n*Telegram*: https://t.me/Razer312Support
+* Our contact details * \n*Name*: LoverBot \n*Telegram*: https://t.me/the_chatting
 \n\nThe bot has been made to *protect* and preserve *privacy* as best as possible. \nThe proper functioning of the bot is defined as the data required for all the commands in the /help to work as expected.
-\n\nOur privacy policy may change from time to time. If we make any material changes to our policies, we will place a prominent notice on https://t.me/Razer312Updates.
+\n\nOur privacy policy may change from time to time. If we make any material changes to our policies, we will place a prominent notice on https://t.me/the_chatting.
 """
 
 PRIVACY_STRING = """Select one of the below options for more information about how the bot handles your privacy."""
