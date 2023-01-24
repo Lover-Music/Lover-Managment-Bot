@@ -1,9 +1,9 @@
 import html
 
-from Razerbot import LOGGER, DRAGONS, TIGERS, WOLVES, dispatcher
-from Razerbot.modules.helper_funcs.chat_status import user_admin, user_not_admin
-from Razerbot.modules.log_channel import loggable
-from Razerbot.modules.sql import reporting_sql as sql
+from Loverbot import LOGGER, DRAGONS, TIGERS, WOLVES, dispatcher
+from Loverbot.modules.helper_funcs.chat_status import user_admin, user_not_admin
+from Loverbot.modules.log_channel import loggable
+from Loverbot.modules.sql import reporting_sql as sql
 from telegram import Chat, InlineKeyboardButton, InlineKeyboardMarkup, ParseMode, Update
 from telegram.error import BadRequest, Unauthorized
 from telegram.ext import (
