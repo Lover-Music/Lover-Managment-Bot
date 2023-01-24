@@ -24,11 +24,11 @@ from telegram.ext import (
 )
 from telegram.utils.helpers import mention_html
 
-import Razerbot.modules.sql.chatbot_sql as sql
-from Razerbot import dispatcher, BOT_NAME
-from Razerbot.modules.helper_funcs.chat_status import user_admin, user_admin_no_reply
-from Razerbot.modules.helper_funcs.filters import CustomFilters
-from Razerbot.modules.log_channel import gloggable
+import Loverbot.modules.sql.chatbot_sql as sql
+from Loverbot import dispatcher, BOT_NAME
+from Loverbot.modules.helper_funcs.chat_status import user_admin, user_admin_no_reply
+from Loverbot.modules.helper_funcs.filters import CustomFilters
+from Loverbot.modules.log_channel import gloggable
 
 tr = Translator()
 
@@ -159,8 +159,8 @@ __mod_name__ = "CʜᴀᴛBᴏᴛ"
 __help__ = """
 ❂ `/chatbot`: To On Or Off ChatBot In Your Chat.
 
-*Reports bugs at*: @Razer312Support
-*Powered by* @Razer312bot"""
+*Reports bugs at*: @@The_chatting
+*Powered by* @Sonachat2bot"""
 
 CHATBOTK_HANDLER = CommandHandler("chatbot", razer)
 ADD_CHAT_HANDLER = CallbackQueryHandler(razeradd, pattern=r"add_chat")
