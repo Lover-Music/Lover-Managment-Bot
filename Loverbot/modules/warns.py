@@ -19,7 +19,7 @@ from Loverbot.modules.helper_funcs.extraction import (
     extract_user,
     extract_user_and_text,
 )
-from Lovererbot.modules.helper_funcs.filters import CustomFilters
+from Loverbot.modules.helper_funcs.filters import CustomFilters
 from Loverbot.modules.helper_funcs.misc import split_message
 from Loverbot.modules.helper_funcs.string_handling import split_quotes
 from Loverbot.modules.log_channel import loggable
