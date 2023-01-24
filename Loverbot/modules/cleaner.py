@@ -1,14 +1,14 @@
 import html
 
-from Razerbot import ALLOW_EXCL, CustomCommandHandler, dispatcher
-from Razerbot.modules.disable import DisableAbleCommandHandler
-from Razerbot.modules.helper_funcs.chat_status import (
+from Loverbot import ALLOW_EXCL, CustomCommandHandler, dispatcher
+from Loverbot.modules.disable import DisableAbleCommandHandler
+from Loverbot.modules.helper_funcs.chat_status import (
     bot_can_delete,
     connection_status,
     dev_plus,
     user_admin,
 )
-from Razerbot.modules.sql import cleaner_sql as sql
+from Loverbot.modules.sql import cleaner_sql as sql
 from telegram import ParseMode, Update
 from telegram.ext import (
     CallbackContext,
