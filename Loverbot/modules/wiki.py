@@ -1,6 +1,6 @@
 import wikipedia
-from Razerbot import dispatcher
-from Razerbot.modules.disable import DisableAbleCommandHandler
+from Loverbot import dispatcher
+from Loverbot.modules.disable import DisableAbleCommandHandler
 from telegram import ParseMode, Update
 from telegram.ext import CallbackContext, run_async
 from wikipedia.exceptions import DisambiguationError, PageError
