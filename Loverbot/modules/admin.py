@@ -5,9 +5,9 @@ from telegram.error import BadRequest
 from telegram.ext import CallbackContext, CommandHandler, Filters, run_async
 from telegram.utils.helpers import mention_html
 
-from Razerbot import DRAGONS, dispatcher
-from Razerbot.modules.disable import DisableAbleCommandHandler
-from Razerbot.modules.helper_funcs.chat_status import (
+from Loverbot import DRAGONS, dispatcher
+from Loverbot.modules.disable import DisableAbleCommandHandler
+from Loverbot.modules.helper_funcs.chat_status import (
     bot_admin,
     can_pin,
     can_promote,
@@ -15,14 +15,14 @@ from Razerbot.modules.helper_funcs.chat_status import (
     user_admin,
     ADMIN_CACHE,
 )
-from Razerbot.modules.helper_funcs.admin_rights import user_can_changeinfo
-from Razerbot.modules.helper_funcs.extraction import (
+from Loverbot.modules.helper_funcs.admin_rights import user_can_changeinfo
+from Loverbot.modules.helper_funcs.extraction import (
     extract_user,
     extract_user_and_text,
 )
-from Razerbot.modules.log_channel import loggable
-from Razerbot.modules.helper_funcs.alternate import send_message
-from Razerbot.modules.helper_funcs.alternate import typing_action
+from Loverbot.modules.log_channel import loggable
+from Loverbot.modules.helper_funcs.alternate import send_message
+from Loverbot.modules.helper_funcs.alternate import typing_action
 
 
 @run_async
