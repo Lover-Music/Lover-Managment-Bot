@@ -4,9 +4,9 @@ import time
 from pyrogram import filters
 from pyrogram.enums import MessageEntityType
 
-from Razerbot import BOT_USERNAME, pbot as app
-from Razerbot.pyrogramee.pluginshelper import get_readable_time
-from Razerbot.utils.mongo import is_afk, remove_afk
+from Loverbot import BOT_USERNAME, pbot as app
+from Loverbot.pyrogramee.pluginshelper import get_readable_time
+from Loverbot.utils.mongo import is_afk, remove_afk
 
 chat_watcher_group = 1
 
