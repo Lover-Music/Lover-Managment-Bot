@@ -17,15 +17,15 @@ from Razerbot import (
     WOLVES,
     dispatcher,
 )
-from Razerbot.modules.disable import DisableAbleCommandHandler
-from Razerbot.modules.helper_funcs.alternate import send_message
-from Razerbot.modules.helper_funcs.chat_status import is_user_admin
-from Razerbot.modules.helper_funcs.extraction import (
+from Loverbot.modules.disable import DisableAbleCommandHandler
+from Loverbot.modules.helper_funcs.alternate import send_message
+from Loverbot.modules.helper_funcs.chat_status import is_user_admin
+from Loverbot.modules.helper_funcs.extraction import (
     extract_unt_fedban,
     extract_user,
     extract_user_fban,
 )
-from Razerbot.modules.helper_funcs.string_handling import markdown_parser
+from Loverbot.modules.helper_funcs.string_handling import markdown_parser
 from telegram import (
     InlineKeyboardButton,
     InlineKeyboardMarkup,
