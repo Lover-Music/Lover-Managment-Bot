@@ -2,8 +2,8 @@ import textwrap
 import os
 from PIL import Image, ImageFont, ImageDraw
 from telethon import events
-from Razerbot import LOGGER, TEMP_DOWNLOAD_DIRECTORY, telethn as bot
-from Razerbot.events import register
+from Loverbot import LOGGER, TEMP_DOWNLOAD_DIRECTORY, telethn as bot
+from Loverbot.events import register
 
 
 @register(pattern="^[!/.]mmf ?(.*)")
