@@ -3,9 +3,9 @@ import time
 from pyrogram import filters
 from pyrogram.types import Message
 
-from Razerbot import BOT_USERNAME, pbot as app
-from Razerbot.pyrogramee.pluginshelper import get_readable_time
-from Razerbot.utils.mongo import add_afk, is_afk, remove_afk
+from Loverbot import BOT_USERNAME, pbot as app
+from Loverbot.pyrogramee.pluginshelper import get_readable_time
+from Loverbot.utils.mongo import add_afk, is_afk, remove_afk
 
 
 # bug :- /afk with bot username afk back in 2 sec.
