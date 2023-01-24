@@ -1,5 +1,5 @@
 from random import uniform
-from Razerbot import pbot
+from Loverbot import pbot
 from pyrogram import filters
 
 @pbot.on_edited_message(filters.command('wish'))
