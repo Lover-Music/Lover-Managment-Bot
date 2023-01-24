@@ -6,11 +6,11 @@ import traceback
 from inspect import getfullargspec
 from io import StringIO
 from time import time
-from Razerbot.utils import format as _format
+from Loverbot.utils import format as _format
 from pyrogram import filters
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
 
-from Razerbot import DRAGONS, pbot as app
+from Loverbot import DRAGONS, pbot as app
 
 
 async def aexec(code, client, message):
