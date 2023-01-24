@@ -7,9 +7,9 @@ from PIL import Image
 from pyrogram import filters
 from pyrogram.types import Message
 
-from Razerbot import pbot as app
-from Razerbot.utils.errors import capture_err
-from Razerbot.utils.sections import section
+from Loverbot import pbot as app
+from Loverbot.utils.errors import capture_err
+from Loverbot.utils.sections import section
 
 
 async def convert(
