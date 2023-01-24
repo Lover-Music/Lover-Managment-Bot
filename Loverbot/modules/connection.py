@@ -5,10 +5,10 @@ from telegram import ParseMode, InlineKeyboardMarkup, InlineKeyboardButton, Upda
 from telegram.error import BadRequest, Unauthorized
 from telegram.ext import CommandHandler, CallbackQueryHandler, run_async
 
-import Razerbot.modules.sql.connection_sql as sql
-from Razerbot import dispatcher, DRAGONS, DEV_USERS
-from Razerbot.modules.helper_funcs import chat_status
-from Razerbot.modules.helper_funcs.alternate import send_message, typing_action
+import Loverbot.modules.sql.connection_sql as sql
+from Loverbot import dispatcher, DRAGONS, DEV_USERS
+from Loverbot.modules.helper_funcs import chat_status
+from Loverbot.modules.helper_funcs.alternate import send_message, typing_action
 
 user_admin = chat_status.user_admin
 
