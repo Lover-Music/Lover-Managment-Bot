@@ -1,4 +1,4 @@
-from Razerbot import LOAD, LOGGER, NO_LOAD
+from Loverbot import LOAD, LOGGER, NO_LOAD
 
 
 def __list_all_modules():
