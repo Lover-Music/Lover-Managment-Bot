@@ -5,8 +5,8 @@ import zipfile
 from telethon import types, events
 from telethon.tl import functions
 
-from Razerbot import TEMP_DOWNLOAD_DIRECTORY
-from Razerbot import telethn as client
+from Loverbot import TEMP_DOWNLOAD_DIRECTORY
+from Loverbot import telethn as client
 
 
 async def is_register_admin(chat, user):
