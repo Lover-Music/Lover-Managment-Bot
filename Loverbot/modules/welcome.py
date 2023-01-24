@@ -5,9 +5,9 @@ import time
 from functools import partial
 from contextlib import suppress
 
-import Razerbot.modules.sql.welcome_sql as sql
-import Razerbot
-from Razerbot import (
+import Loverbot.modules.sql.welcome_sql as sql
+import Loverbot
+from Loverbot import (
     DEV_USERS,
     LOGGER,
     OWNER_ID,
@@ -20,18 +20,18 @@ from Razerbot import (
     JOIN_LOGGER,
     OWNER_USERNAME
 )
-from Razerbot.modules.helper_funcs.chat_status import (
+from Loverbot.modules.helper_funcs.chat_status import (
     is_user_ban_protected,
     user_admin,
 )
-from Razerbot.modules.helper_funcs.misc import build_keyboard, revert_buttons
-from Razerbot.modules.helper_funcs.msg_types import get_welcome_type
-from Razerbot.modules.helper_funcs.string_handling import (
+from Loverbot.modules.helper_funcs.misc import build_keyboard, revert_buttons
+from Loverbot.modules.helper_funcs.msg_types import get_welcome_type
+from Loverbot.modules.helper_funcs.string_handling import (
     escape_invalid_curly_brackets,
     markdown_parser,
 )
-from Razerbot.modules.log_channel import loggable
-from Razerbot.modules.sql.global_bans_sql import is_user_gbanned
+from Loverbot.modules.log_channel import loggable
+from Loverbot.modules.sql.global_bans_sql import is_user_gbanned
 from telegram import (
     ChatPermissions,
     InlineKeyboardButton,
