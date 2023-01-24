@@ -4,14 +4,14 @@ from pyrogram import __version__ as pyrover
 from telethon import __version__ as telthnver
 from pyrogram import filters
 from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
-from Razerbot import pbot, SUPPORT_CHAT, BOT_NAME, OWNER_ID, OWNER_USERNAME, ALIVE_IMG
+from Loverbot import pbot, SUPPORT_CHAT, BOT_NAME, OWNER_ID, OWNER_USERNAME, ALIVE_IMG
 
 @pbot.on_message(filters.command("alive", prefixes=["/", "!"]))
 async def alive(_, message):
     ALIVE_TEXT = f"""
 Hᴇʟʟᴏ {message.from_user.mention}!
 ───────────────────────
-× I'ᴍ {BOT_NAME}, A Pᴏᴡᴇʀꜰᴜʟ Gʀᴏᴜᴘ Mᴀɴᴀɢᴇᴍᴇɴᴛ Bᴏᴛ.
+× I'ᴍ {BOT_NAME}, A Pᴏᴡᴇʀꜰᴜʟ Lover Gʀᴏᴜᴘ Mᴀɴᴀɢᴇᴍᴇɴᴛ Bᴏᴛ.
 × I'ᴍ Aʟɪᴠᴇ ᴀɴᴅ Wᴏʀᴋɪɴɢ Hᴀʀᴅ!!
 ───────────────────────
 × Oᴡɴᴇʀ : @{OWNER_USERNAME}
