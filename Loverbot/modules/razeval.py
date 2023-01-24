@@ -4,10 +4,10 @@ import os
 import sys
 import traceback
 
-from Razerbot.utils import format as _format
-from Razerbot import telethn as tbot
-from Razerbot.events import register
-from Razerbot import *
+from Loverbot.utils import format as _format
+from Loverbot import telethn as tbot
+from Loverbot.events import register
+from Loverbot import *
 
 
 @register(pattern="^[!/.]rexec(?:\s|$)([\s\S]*)")
