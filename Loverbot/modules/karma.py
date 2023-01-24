@@ -2,9 +2,9 @@ import asyncio
 
 from pyrogram import filters
 
-from Razerbot import OWNER_ID, pbot
-from Razerbot.utils.errors import capture_err
-from Razerbot.utils.mongo import (
+from Loverbot import OWNER_ID, pbot
+from Loverbot.utils.errors import capture_err
+from Loverbot.utils.mongo import (
     alpha_to_int,
     get_karma,
     get_karmas,
