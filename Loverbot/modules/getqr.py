@@ -1,6 +1,6 @@
 import os
-from Razerbot import dispatcher
-from Razerbot import telethn as tbot
+from Loverbot import dispatcher
+from Loverbot import telethn as tbot
 from asyncio import sleep
 from datetime import datetime
 from telegram.ext import CommandHandler
@@ -8,8 +8,8 @@ from requests import get
 from requests import post
 from telethon import types, events
 from telethon.tl import functions
-from Razerbot.events import register
-from Razerbot import MONGO_DB_URI
+from Loverbot.events import register
+from Loverbot import MONGO_DB_URI
 from pymongo import MongoClient
 
 
