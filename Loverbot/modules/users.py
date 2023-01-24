@@ -11,10 +11,10 @@ from telegram.ext import (
     run_async,
 )
 
-import Razerbot.modules.sql.users_sql as sql
-from Razerbot import DEV_USERS, LOGGER, OWNER_ID, dispatcher
-from Razerbot.modules.helper_funcs.chat_status import dev_plus, sudo_plus
-from Razerbot.modules.sql.users_sql import get_all_users
+import Loverbot.modules.sql.users_sql as sql
+from Loverbot import DEV_USERS, LOGGER, OWNER_ID, dispatcher
+from Loverbot.modules.helper_funcs.chat_status import dev_plus, sudo_plus
+from Loverbot.modules.sql.users_sql import get_all_users
 
 USERS_GROUP = 4
 CHAT_GROUP = 5
