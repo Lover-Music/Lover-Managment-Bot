@@ -1,7 +1,7 @@
 from typing import List, Optional
 
-from Razerbot import LOGGER
-from Razerbot.modules.users import get_user_id
+from Loverbot import LOGGER
+from Loverbot.modules.users import get_user_id
 from telegram import Message, MessageEntity
 from telegram.error import BadRequest
 
