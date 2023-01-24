@@ -2,7 +2,7 @@ import threading
 
 from sqlalchemy import func, distinct, Column, String, UnicodeText, BigInteger
 
-from Razerbot.modules.sql import SESSION, BASE
+from Loverbot.modules.sql import SESSION, BASE
 
 class BlackListFilters(BASE):
     __tablename__ = "blacklist"
