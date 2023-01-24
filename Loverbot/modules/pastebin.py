@@ -7,10 +7,10 @@ from pykeyboard import InlineKeyboard
 from pyrogram import filters
 from pyrogram.types import InlineKeyboardButton
 
-from Razerbot import aiohttpsession as session
-from Razerbot import pbot as app
-from Razerbot.utils.errors import capture_err
-from Razerbot.utils.pastebin import paste
+from Loverbot import aiohttpsession as session
+from Loverbot import pbot as app
+from Loverbot.utils.errors import capture_err
+from Loverbot.utils.pastebin import paste
 
 __mod_name__ = "Paste​"
 
