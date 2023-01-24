@@ -2,7 +2,7 @@ from telegram import ParseMode, InlineKeyboardMarkup, InlineKeyboardButton, Upda
 from telegram.error import BadRequest, Unauthorized
 from telegram.ext import CommandHandler, CallbackQueryHandler, run_async
 
-from Razerbot import dispatcher, DRAGONS, DEV_USERS
+from Loverbot import dispatcher, DRAGONS, DEV_USERS
 
 PRIVACY_P_TEXT = """
 * Our contact details * \n*Name*: RazerBot \n*Telegram*: https://t.me/Razer312Support
