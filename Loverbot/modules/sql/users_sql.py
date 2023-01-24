@@ -1,7 +1,7 @@
 import threading
 
-from Razerbot import dispatcher
-from Razerbot.modules.sql import BASE, SESSION
+from Loverbot import dispatcher
+from Loverbot.modules.sql import BASE, SESSION
 from sqlalchemy import (
     Column,
     ForeignKey,
