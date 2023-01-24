@@ -5,8 +5,8 @@ from telethon import events
 from telegram import Update
 from telegram.ext import CallbackContext, CommandHandler, run_async
 
-from Razerbot import telethn, dispatcher
-from Razerbot.modules.helper_funcs.chat_status import dev_plus
+from Lovererbot import telethn, dispatcher
+from Lovbot.modules.helper_funcs.chat_status import dev_plus
 
 DEBUG_MODE = False
 
