@@ -2,7 +2,6 @@ import requests
 import random
 import os
 import json
-from faker import Faker
 from datetime import date
 from Loverbot import telethn as tbot
 from Loverbot.events import register
