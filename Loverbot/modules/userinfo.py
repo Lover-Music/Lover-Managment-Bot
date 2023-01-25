@@ -351,9 +351,9 @@ def info(update: Update, context: CallbackContext):
                     [
                         [
                             InlineKeyboardButton(
-                                "「ʜᴇᴀʟᴛʜ」", url="https://t.me/Razer312Updates/4"),
+                                "「ʜᴇᴀʟᴛʜ」", url="https://t.me/the_chatting"),
                             InlineKeyboardButton(
-                                "「ᴅɪsᴀsᴛᴇʀ」", url="https://t.me/Razer312Updates/6")
+                                "「ᴅɪsᴀsᴛᴇʀ」", url="https://t.me/the_chatting")
                         ],
                     ]
                 ),
