@@ -10,7 +10,7 @@ from Loverbot import pbot, START_IMG
 async def repo(_, message):
     await message.reply_photo(
         photo=START_IMG,
-        caption=f"""ʜᴇʏ ɪ'ᴍ RΛZΞR
+        caption=f"""ʜᴇʏ ɪ'ᴍ Lover Boy
 
 ⥤ ᴅᴇᴠᴇʟᴏᴘᴇʀ : @shubhamsah1
 ⥤ ᴘʏᴛʜᴏɴ ᴠᴇʀsɪᴏɴ : `{y()}`
