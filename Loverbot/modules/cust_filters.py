@@ -29,11 +29,11 @@ from Loverbot.modules.helper_funcs.string_handling import (
     escape_invalid_curly_brackets,
     markdown_to_html,
 )
-from Razerbot.modules.sql import cust_filters_sql as sql
+from Loverbot.modules.sql import cust_filters_sql as sql
 
-from Razerbot.modules.connection import connected
+from Loverbot.modules.connection import connected
 
-from Razerbot.modules.helper_funcs.alternate import send_message, typing_action
+from Loverbot.modules.helper_funcs.alternate import send_message, typing_action
 
 HANDLER_GROUP = 10
 
