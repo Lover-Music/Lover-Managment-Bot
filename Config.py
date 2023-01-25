@@ -10,12 +10,12 @@ def get_user_list(config, key):
 # Create a new config.py or rename this to config.py file in same dir and import, then extend this class.
 class Config(object):
     LOGGER = True
-    API_ID = 18960528  # integer value, dont use ""
-    API_HASH = "cc0fff577b677c9b2b4de5dd5bc5dfd1"
-    TOKEN = "5607218250:AAGDpMZvFRSGA5863YLXtVho2I6lXCkED8A"  # This var used to be API_KEY but it is now TOKEN, adjust accordingly.
+    API_ID = 180528  # integer value, dont use ""
+    API_HASH = ""
+    TOKEN = ""  # This var used to be API_KEY but it is now TOKEN, adjust accordingly.
     BOT_USERNAME = "SonaChatBot"
     BOT_NAME = "Lover"
-    BOT_ID = "5607218250"
+    BOT_ID = ""
     OWNER_ID = 1548904516  # If you dont know, run the bot and do /id in your private chat with it, also an integer
     OWNER_USERNAME = "shubhamsah1"
     START_IMG = "https://telegra.ph/file/a62273c43c95ad07ada61.jpg"
@@ -26,8 +26,8 @@ class Config(object):
     EVENT_LOGS = (-1001899951693)  # Prints information like gbans, sudo promotes, AI enabled disable states that may help in debugging and shit
 
     # RECOMMENDED
-    MONGO_DB_URI = "mongodb+srv://2004:2004@cluster0.vugmi1n.mongodb.net/?retryWrites=true&w=majority" 
-    SQLALCHEMY_DATABASE_URI = "://postgres://jzvuazua:gGoc95jIH5RFDerT4pKw7k-2GqeHlouV@baasu.db.elephantsql.com/jzvuazua"  # needed for any database module
+    MONGO_DB_URI = "" 
+    SQLALCHEMY_DATABASE_URI = ""  # needed for any database module
     LOAD = []
     NO_LOAD = ["rss", "cleaner", "connection", "math"]
     WEBHOOK = False
