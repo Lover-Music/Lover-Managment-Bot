@@ -33,7 +33,7 @@ class Config(object):
     WEBHOOK = False
     INFOPIC = True
     URL = None
-    SPAMWATCH_API = "d93LNkNTreNarcvre6wpp~WJiOzyCIXkllNYcZ3x1014cBHxmA7tHMwZMoK2ET_q"  # go to support.spamwat.ch to get key
+    SPAMWATCH_API = ""  # go to support.spamwat.ch to get key
     SPAMWATCH_SUPPORT_CHAT = "@SpamWatchSupport"
     TEMP_DOWNLOAD_DIRECTORY = "./"
     
@@ -48,14 +48,14 @@ class Config(object):
     DEL_CMDS = True  # Delete commands that users dont have access to, like delete /ban if a non admin uses it.
     STRICT_GBAN = True
     WORKERS = (8)  # Number of subthreads to use. Set as number of threads your processor uses
-    BAN_STICKER = "xyz"  # banhammer marie sticker id, the bot will send this sticker before banning or kicking a user in chat.
-    OPENWEATHERMAP_ID = "xyz"
+    BAN_STICKER = ""  # banhammer marie sticker id, the bot will send this sticker before banning or kicking a user in chat.
+    OPENWEATHERMAP_ID = ""
     ALLOW_EXCL = True  # Allow ! commands as well as / (Leave this to true so that blacklist can work)
-    CASH_API_KEY = "xyz"  # Get your API key from https://www.alphavantage.co/support/#api-key
-    IBM_WATSON_CRED_URL = "xyz"
-    IBM_WATSON_CRED_PASSWORD = "xyz"
-    TIME_API_KEY = "xyz"  # Get your API key from https://timezonedb.com/api
-    AI_API_KEY = "xyz"  # For chatbot, get one from https://coffeehouse.intellivoid.net/dashboard
+    CASH_API_KEY = ""  # Get your API key from https://www.alphavantage.co/support/#api-key
+    IBM_WATSON_CRED_URL = ""
+    IBM_WATSON_CRED_PASSWORD = ""
+    TIME_API_KEY = ""  # Get your API key from https://timezonedb.com/api
+    AI_API_KEY = ""  # For chatbot, get one from https://coffeehouse.intellivoid.net/dashboard
     BL_CHATS = []  # List of groups that you want blacklisted.
     ALLOW_CHATS = True
     SPAMMERS = None
