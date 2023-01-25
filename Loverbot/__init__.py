@@ -46,7 +46,7 @@ async def eor(msg: Message, **kwargs):
 aiohttpsession = ClientSession()
 
     
-from config import Development as Config
+from Config import Development as Config
 
 TOKEN = Config.TOKEN
 
